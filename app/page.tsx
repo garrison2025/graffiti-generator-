@@ -1311,7 +1311,7 @@ export default function GraffitiGenerator() {
               </div>
             </div>
             <div className="text-center text-gray-400 text-sm border-t border-gray-800 pt-6 md:pt-8">
-              © 2025 Brans Graffiti Generator. Alle Rechte vorbehalten.
+              © 2025 Graffiti Schrift Generator. Alle Rechte vorbehalten.
               <span className="mx-2">•</span>
               Kostenloser Online Graffiti Generator für authentische Street Art
             </div>
