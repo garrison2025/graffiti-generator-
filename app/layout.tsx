@@ -12,26 +12,26 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   ...generateSEOMetadata("home"),
-  title: "Graffiti Generator - Kostenlos & Sofort online | Brans",
+  title: "Graffiti Schrift Generator | Online & Kostenlos",
   description:
-    "Erstelle authentische Graffiti-Schriftzüge mit Brans Generator. 25+ Stile, Bubble Letters, Wildstyle, kostenlos ohne Anmeldung. Mobile optimiert!",
-  applicationName: "Brans Graffiti Generator",
+    "Dein Text als cooles Graffiti. Online erstellen, anpassen und als PNG downloaden. Ohne Anmeldung.",
+  applicationName: "Graffiti Schrift Generator",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "Brans Graffiti",
+    title: "Graffiti Generator",
   },
   openGraph: {
-    siteName: "Brans Graffiti Generator",
-    title: "Graffiti Generator - Kostenlos & Sofort online | Brans",
+    siteName: "Graffiti Schrift Generator",
+    title: "Graffiti Schrift Generator | Online & Kostenlos",
     description:
-      "Erstelle authentische Graffiti-Schriftzüge mit Brans Generator. 25+ Stile, Bubble Letters, Wildstyle, kostenlos ohne Anmeldung. Mobile optimiert!",
+      "Dein Text als cooles Graffiti. Online erstellen, anpassen und als PNG downloaden. Ohne Anmeldung.",
     images: [
       {
         url: "/android-chrome-512x512.png",
         width: 512,
         height: 512,
-        alt: "Brans Graffiti Generator Logo",
+        alt: "Graffiti Schrift Generator Logo",
       },
     ],
   },
