@@ -1,0 +1,111 @@
+{
+  "name": "Graffiti Generator - Kostenloser Online Graffiti Schrift Generator",
+  "short_name": "Graffiti Generator",
+  "description": "Erstelle coole Graffiti-Schriftzüge online und kostenlos mit 25+ authentischen Stilen. Mobile optimiert, sofortiger Download.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1f2937",
+  "theme_color": "#ff006e",
+  "orientation": "portrait-primary",
+  "categories": ["design", "graphics", "productivity", "utilities"],
+  "lang": "de",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32", 
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png", 
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Graffiti Generator Desktop Ansicht"
+    },
+    {
+      "src": "/screenshot-mobile-narrow.png", 
+      "sizes": "640x1136",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Graffiti Generator Mobile Ansicht"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Bubble Letters erstellen",
+      "short_name": "Bubble Letters",
+      "description": "Erstelle Bubble Letters Graffiti",
+      "url": "/?style=bubble&text=BUBBLE",
+      "icons": [
+        {
+          "src": "/shortcut-bubble.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Wildstyle Graffiti",
+      "short_name": "Wildstyle", 
+      "description": "Erstelle Wildstyle Graffiti",
+      "url": "/?style=wildstyle&text=WILD",
+      "icons": [
+        {
+          "src": "/shortcut-wildstyle.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Chrome Effekt",
+      "short_name": "Chrome",
+      "description": "Erstelle Chrome Graffiti",
+      "url": "/?style=chrome&text=CHROME", 
+      "icons": [
+        {
+          "src": "/shortcut-chrome.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
