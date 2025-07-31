@@ -30,7 +30,7 @@ export function BrandLogo({ size = "md", showText = true, className = "", href =
       <div className="relative">
         <Image
           src="/android-chrome-192x192.png"
-          alt="Brans Graffiti Generator Logo"
+          alt="Graffiti Schrift Generator Logo" // alt 描述文字已更新
           width={size === "sm" ? 32 : size === "md" ? 48 : size === "lg" ? 64 : 96}
           height={size === "sm" ? 32 : size === "md" ? 48 : size === "lg" ? 64 : 96}
           className={`${sizeClasses[size]} object-contain`}
@@ -39,11 +39,12 @@ export function BrandLogo({ size = "md", showText = true, className = "", href =
       </div>
       {showText && (
         <div className="flex flex-col">
-          <span className={`font-bold text-white ${textSizeClasses[size]}`}>Brans</span>
+          {/* --- Logo 文字已修改 --- */}
+          <span className={`font-bold text-white ${textSizeClasses[size]}`}>Graffiti Schrift</span>
           <span
             className={`text-yellow-400 font-semibold ${size === "sm" ? "text-xs" : size === "md" ? "text-sm" : "text-base"}`}
           >
-            Graffiti Generator
+            Generator
           </span>
         </div>
       )}
