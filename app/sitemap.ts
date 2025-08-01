@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://graffiti-generator.vercel.app"
+  const baseUrl = "https://graffitischriftgenerator.pro/"
 
   // Static pages
   const staticPages = [
