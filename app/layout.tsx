@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import Script from "next/script"
 import { generateSEOMetadata } from "@/components/seo-optimized-content"
 import "./globals.css"
 
@@ -153,6 +154,14 @@ export default function RootLayout({
             `,
           }}
         />
+
+        {/* Adsterra Social Bar Script */}
+        <Script
+          id="adsterra-social-bar"
+          src="//pl27526014.effectivecpmrate.com/96/01/3c/96013cadae263a64715af046a23e6ec7.js"
+          strategy="afterInteractive"
+        />
+
       </body>
     </html>
   )
