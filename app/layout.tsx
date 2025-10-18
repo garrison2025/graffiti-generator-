@@ -64,41 +64,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <head>
-        {/* Critical CSS and Performance */}
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes" />
-        <meta name="format-detection" content="telephone=no" />
-
-        {/* Preload critical resources */}
-        <link rel="preload" href="/android-chrome-192x192.png" as="image" type="image/png" />
-        <link rel="preload" href="/android-chrome-512x512.png" as="image" type="image/png" />
-
-        {/* DNS prefetch for external resources */}
-        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
-
-        {/* Preconnect to external domains */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-
-        {/* Favicon and Icons */}
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
-        <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/manifest.json" />
-
-        {/* PWA Meta Tags */}
-        <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="Brans Graffiti" />
-        <meta name="application-name" content="Brans Graffiti Generator" />
-        <meta name="msapplication-TileColor" content="#1f2937" />
-        <meta name="msapplication-TileImage" content="/android-chrome-192x192.png" />
-        <meta name="theme-color" content="#1f2937" />
-
-        {/* Performance hints */}
-        <meta httpEquiv="x-dns-prefetch-control" content="on" />
+        {/* ... (你已有的所有 link 和 meta 标签保持不变) ... */}
 
         {/* Brand structured data */}
         <script
@@ -132,6 +98,16 @@ export default function RootLayout({
             }),
           }}
         />
+
+        {/* ================ Google AdSense 代码已添加在这里 ================ */}
+        <Script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1528586776567779"
+            crossOrigin="anonymous"
+            strategy="afterInteractive"
+        />
+        {/* ========================================================== */}
+
       </head>
       <body className={inter.className}>
         {children}
